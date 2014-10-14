@@ -42,7 +42,7 @@ describe("Tenant", function() {
   describe("#removeReference", function(){
     it("should remove instances of Person", function() {
       var john = new app.Person("john doe", "123-4567");
-      jane.addReference(john)
+      jane.addReference(john);
       jane.removeReference(john);
       expect(jane.references).to.eql([]);
     });

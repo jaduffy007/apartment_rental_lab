@@ -1,3 +1,5 @@
+
+
 var Person = require('./people/person.js'),
 	Manager = require('./people/manager.js'),
   Tenant = require('./people/tenant.js');
